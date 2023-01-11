@@ -269,42 +269,6 @@ for case in all_cases:
     calculated_case_times[case_name] = total_completion_times
 
 
-check = {
-    "speed_up_A7=True, divide_A10=True, guarantee_A4_A5_A9=True": {
-        "total_cost": 523000.0,
-        "average_completion_time": 42.65354352327895,
-    },
-    "speed_up_A7=True, divide_A10=True, guarantee_A4_A5_A9=False": {
-        "total_cost": 505000.0,
-        "average_completion_time": 43.351366321125234,
-    },
-    "speed_up_A7=True, divide_A10=False, guarantee_A4_A5_A9=True": {
-        "total_cost": 508000.0,
-        "average_completion_time": 48.15591378712529,
-    },
-    "speed_up_A7=True, divide_A10=False, guarantee_A4_A5_A9=False": {
-        "total_cost": 490000,
-        "average_completion_time": 48.82171435838333,
-    },
-    "speed_up_A7=False, divide_A10=True, guarantee_A4_A5_A9=True": {
-        "total_cost": 503000.0,
-        "average_completion_time": 47.40052383043162,
-    },
-    "speed_up_A7=False, divide_A10=True, guarantee_A4_A5_A9=False": {
-        "total_cost": 485000.0,
-        "average_completion_time": 47.68190436302683,
-    },
-    "speed_up_A7=False, divide_A10=False, guarantee_A4_A5_A9=True": {
-        "total_cost": 488000.0,
-        "average_completion_time": 48.68337371256089,
-    },
-    "speed_up_A7=False, divide_A10=False, guarantee_A4_A5_A9=False": {
-        "total_cost": 470000,
-        "average_completion_time": 49.325575974779575,
-    },
-}
-
-
 """
 PLOT
 """
